@@ -58,6 +58,7 @@ export function VisuelProduit({
               face={face}
               photo={detoure}
               chargement={priorite ? "eager" : "lazy"}
+              sizes={sizes}
               className="h-full w-auto drop-shadow-[0_10px_12px_rgba(0,0,0,0.16)]"
             />
           </div>
@@ -67,7 +68,8 @@ export function VisuelProduit({
               alt=""
               fill
               sizes={sizes}
-              className="object-cover opacity-0 transition-opacity duration-500 pointer-fine:group-hover:opacity-100"
+              // Masquée sur téléphone (pas de survol) : elle n'y est donc jamais téléchargée.
+              className="hidden object-cover opacity-0 transition-opacity duration-500 pointer-fine:block pointer-fine:group-hover:opacity-100"
             />
           )}
         </>

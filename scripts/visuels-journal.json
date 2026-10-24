@@ -334,5 +334,13 @@
     "modele": "grok-imagine-image-2.0",
     "prompt": "Lifestyle fashion photograph: a Senegalese woman in a long bogolan skirt and a black top sitting under a large baobab tree, golden evening light. Photorealistic, natural colours, high detail. Any person shown is fictional. No text, no logo, no signage, no watermark.",
     "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T21:30:47",
+    "fichier": "foulard-tete-wax-ocre-recto",
+    "mode": "generation",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Professional e-commerce studio photograph of a long rectangular head scarf (headwrap) in African wax print fabric, with finely hemmed edges. Fabric or material: African wax print (ankara) matte printed cotton, ochre-mustard base with deep indigo blue concentric circle motifs, flat matte colours, no metallic or silver sheen. The scarf is folded lengthwise and draped over the bar of a simple light wooden clothes hanger with a thin curved metal hook, both ends hanging down evenly, seen straight from the front, perfectly centered, the hook at the top center of the frame, the entire scarf visible with margin on all sides. Plain light grey seamless studio background, soft even lighting. No person, no mannequin, no text, no logo, no label, no price tag. Photorealistic, sharp fabric texture.",
+    "genere_par_ia": true
   }
 ]

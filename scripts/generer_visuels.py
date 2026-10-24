@@ -14,6 +14,7 @@ Trois familles d'images :
   py scripts/generer_visuels.py --portes              photos portées (une par produit)
   py scripts/generer_visuels.py --ambiances           images d'ambiance du site
   py scripts/generer_visuels.py --produit kaftan-homme --refaire
+  py scripts/generer_visuels.py --produit foulard-tete-wax --couleur ocre --refaire
   py scripts/generer_visuels.py --ambiances --nom campagne --refaire
   py scripts/generer_visuels.py --detourer            refait seulement détourage et compression (gratuit)
 
@@ -257,6 +258,8 @@ def taches_produits(config, args, manifeste):
         cadrage = produit.get("cadrage", "crochet")
         faces = ["recto", "verso"] if args.dos and produit.get("dos") else ["recto"]
         for i, couleur in enumerate(couleurs):
+            if args.couleur and couleur != args.couleur:
+                continue
             for face in faces:
                 nom = nom_fichier(slug, couleur, face)
                 if face == "recto" and i == 0:
@@ -366,6 +369,7 @@ def main():
     parser.add_argument("--portes", action="store_true", help="photos portées par un mannequin fictif")
     parser.add_argument("--ambiances", action="store_true", help="images d'ambiance du site")
     parser.add_argument("--produit", help="un seul produit (slug)")
+    parser.add_argument("--couleur", help="une seule couleur du produit (avec --produit), ex. ocre")
     parser.add_argument("--nom", help="une seule image d'ambiance (ex. campagne)")
     parser.add_argument("--refaire", action="store_true", help="refaire même si l'image existe déjà")
     parser.add_argument("--detourer", action="store_true", help="retraiter les images déjà générées (gratuit)")
@@ -375,6 +379,11 @@ def main():
     config = lire_json(CONFIG, None) or sys.exit(f"Fichier introuvable : {CONFIG}")
     if args.produit and args.produit not in config["produits"]:
         sys.exit(f"Produit inconnu : {args.produit}. Choix : {', '.join(config['produits'])}")
+    if args.couleur and not args.produit:
+        sys.exit("--couleur s'utilise avec --produit, ex. --produit foulard-tete-wax --couleur ocre")
+    if args.couleur and args.couleur not in config["produits"][args.produit]["couleurs"]:
+        couleurs = ", ".join(config["produits"][args.produit]["couleurs"])
+        sys.exit(f"Couleur inconnue pour {args.produit} : {args.couleur}. Choix : {couleurs}")
     if args.nom and args.nom not in config["ambiances"]["images"]:
         sys.exit(f"Ambiance inconnue : {args.nom}. Choix : {', '.join(config['ambiances']['images'])}")
 

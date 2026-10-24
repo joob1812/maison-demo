@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 import { useId, type ReactNode } from "react";
 import type { CouleurId, Motif, Silhouette } from "@/data/produits";
 
@@ -340,6 +342,8 @@ type Props = {
   photo?: string;
   /** "eager" pour une photo visible dès l'arrivée sur la page (portant), "lazy" sinon. */
   chargement?: "eager" | "lazy";
+  /** Largeur affichée de la photo (attribut sizes) : le navigateur télécharge une version à la bonne taille. */
+  sizes?: string;
   /** Texte alternatif. Sans titre, l'image est décorative. */
   titre?: string;
   className?: string;
@@ -352,6 +356,7 @@ export function Vetement({
   face = "recto",
   photo,
   chargement = "lazy",
+  sizes = "(min-width: 768px) 25vw, 50vw",
   titre,
   className = "",
 }: Props) {
@@ -359,14 +364,14 @@ export function Vetement({
 
   if (photo) {
     return (
-      // eslint-disable-next-line @next/next/no-img-element -- photo détourée locale, déjà au format WebP 750 × 1200
-      <img
+      // Photo détourée 750 × 1200, servie à la taille d'affichage (souvent 4 à 8 fois plus légère sur téléphone).
+      <Image
         src={photo}
         alt={titre ?? ""}
         width={750}
         height={1200}
+        sizes={sizes}
         loading={chargement}
-        decoding="async"
         draggable={false}
         className={`object-contain ${className}`}
       />

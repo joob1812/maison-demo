@@ -107,6 +107,7 @@ py scripts/generer_visuels.py --portes     # une photo portée par produit, envi
 py scripts/generer_visuels.py --ambiances  # 10 images d'ambiance, environ 0,40 $
 py scripts/generer_visuels.py --dos        # facultatif : les dos des vêtements
 py scripts/generer_visuels.py --produit kaftan-homme --refaire          # refaire un produit raté
+py scripts/generer_visuels.py --produit foulard-tete-wax --couleur ocre --refaire   # une seule couleur
 py scripts/generer_visuels.py --ambiances --nom campagne --refaire     # refaire une ambiance
 ```
 

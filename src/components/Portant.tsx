@@ -25,6 +25,8 @@ const SUR_PORTANT = produits.filter((p) => p.surPortant);
 
 /** Nom partagé par le vêtement du portant et celui de la vue rapprochée pendant l'animation. */
 const NOM_TRANSITION = "vetement-actif";
+// Même taille de photo sur la tringle et dans la vue rapprochée : l'image est déjà chargée quand l'animation démarre.
+const TAILLE_PHOTO = "(min-width: 768px) 320px, 260px";
 
 function animationsAutorisees() {
   return (
@@ -127,6 +129,7 @@ export function Portant() {
                   couleur={p.couleurs[0]}
                   photo={photoDetouree(p, p.couleurs[0], "recto")}
                   chargement="eager"
+                  sizes={TAILLE_PHOTO}
                   className="block h-auto w-full"
                 />
               </span>
@@ -214,6 +217,7 @@ function VueRapprochee({ produit, onFermer }: { produit: Produit; onFermer: () =
                   face="recto"
                   photo={photoFace}
                   chargement="eager"
+                  sizes={TAILLE_PHOTO}
                   titre={`${produit.nom}, ${COULEURS[couleur].nom}, vu de face`}
                   className="block h-auto w-full"
                 />
@@ -225,6 +229,7 @@ function VueRapprochee({ produit, onFermer }: { produit: Produit; onFermer: () =
                   couleur={couleur}
                   face="verso"
                   photo={photoDos}
+                  sizes={TAILLE_PHOTO}
                   titre={`${produit.nom}, ${COULEURS[couleur].nom}, vu de dos`}
                   className="block h-auto w-full"
                 />
