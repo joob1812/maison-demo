@@ -1,0 +1,87 @@
+{
+  "robe-portefeuille-wax": {
+    "indigo": {
+      "recto": "/produits/robe-portefeuille-wax-indigo-recto.webp"
+    },
+    "ocre": {
+      "recto": "/produits/robe-portefeuille-wax-ocre-recto.webp"
+    }
+  },
+  "boubou-bazin-brode": {
+    "blanc": {
+      "recto": "/produits/boubou-bazin-brode-blanc-recto.webp"
+    },
+    "indigo": {
+      "recto": "/produits/boubou-bazin-brode-indigo-recto.webp"
+    }
+  },
+  "ensemble-pagne-deux-pieces": {
+    "ocre": {
+      "recto": "/produits/ensemble-pagne-deux-pieces-ocre-recto.webp"
+    },
+    "indigo": {
+      "recto": "/produits/ensemble-pagne-deux-pieces-indigo-recto.webp"
+    }
+  },
+  "chemise-lin": {
+    "blanc": {
+      "recto": "/produits/chemise-lin-blanc-recto.webp"
+    },
+    "noir": {
+      "recto": "/produits/chemise-lin-noir-recto.webp"
+    }
+  },
+  "kaftan-homme": {
+    "noir": {
+      "recto": "/produits/kaftan-homme-noir-recto.webp"
+    },
+    "indigo": {
+      "recto": "/produits/kaftan-homme-indigo-recto.webp"
+    }
+  },
+  "jupe-longue-bogolan": {
+    "ocre": {
+      "recto": "/produits/jupe-longue-bogolan-ocre-recto.webp"
+    }
+  },
+  "sandales-cuir-tressees": {
+    "ocre": {
+      "recto": "/produits/sandales-cuir-tressees-ocre-recto.webp"
+    },
+    "noir": {
+      "recto": "/produits/sandales-cuir-tressees-noir-recto.webp"
+    }
+  },
+  "robe-longue-bazin": {
+    "ocre": {
+      "recto": "/produits/robe-longue-bazin-ocre-recto.webp"
+    },
+    "indigo": {
+      "recto": "/produits/robe-longue-bazin-indigo-recto.webp"
+    }
+  },
+  "chemise-wax-manches-courtes": {
+    "indigo": {
+      "recto": "/produits/chemise-wax-manches-courtes-indigo-recto.webp"
+    },
+    "ocre": {
+      "recto": "/produits/chemise-wax-manches-courtes-ocre-recto.webp"
+    }
+  },
+  "sac-cabas-wax": {
+    "indigo": {
+      "recto": "/produits/sac-cabas-wax-indigo-recto.webp"
+    },
+    "ocre": {
+      "recto": "/produits/sac-cabas-wax-ocre-recto.webp"
+    }
+  },
+  "foulard-tete-wax": {
+    "ocre": {
+      "recto": "/produits/foulard-tete-wax-ocre-recto.webp"
+    },
+    "indigo": {
+      "recto": "/produits/foulard-tete-wax-indigo-recto.webp"
+    }
+  }
+}

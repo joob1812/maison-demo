@@ -1,0 +1,338 @@
+[
+  {
+    "date": "2026-10-24T16:14:49",
+    "fichier": "robe-portefeuille-wax-indigo-recto",
+    "mode": "generation",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Professional e-commerce studio photograph of a women's midi wrap dress with three-quarter sleeves, a V neckline and a fabric belt tied in a bow at the waist. Fabric: African wax print (ankara) cotton, deep indigo blue base with golden-yellow concentric circle motifs. The garment hangs on a simple light wooden clothes hanger with a thin curved metal hook, seen straight from the front, perfectly centered, the hook at the top center of the frame, the entire garment visible with margin on all sides. Plain light grey seamless studio background, soft even lighting, natural fabric drape. No person, no mannequin, no text, no logo, no label, no price tag. Photorealistic, sharp fabric texture.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T16:25:29",
+    "fichier": "robe-portefeuille-wax-ocre-recto",
+    "mode": "edition",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Keep exactly the same garment, cut, shape, folds, hanger, camera angle, framing, lighting and background. Change only the fabric to: African wax print (ankara) cotton, ochre-mustard base with deep indigo concentric circle motifs. No person, no mannequin, no text, no logo, no label.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T16:27:01",
+    "fichier": "boubou-bazin-brode-blanc-recto",
+    "mode": "generation",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Professional e-commerce studio photograph of a men's Senegalese grand boubou: a very wide, long, flowing robe whose large sleeves form one piece with the body, with fine embroidery around the neckline and down the chest. Fabric: brilliant white bazin riche damask with a subtle sheen, embroidery in ivory and pale gold thread. The garment hangs on a simple light wooden clothes hanger with a thin curved metal hook, seen straight from the front, perfectly centered, the hook at the top center of the frame, the entire garment visible with margin on all sides. Plain light grey seamless studio background, soft even lighting, natural fabric drape. No person, no mannequin, no text, no logo, no label, no price tag. Photorealistic, sharp fabric texture.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T16:28:05",
+    "fichier": "boubou-bazin-brode-indigo-recto",
+    "mode": "edition",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Keep exactly the same garment, cut, shape, folds, hanger, camera angle, framing, lighting and background. Change only the fabric to: deep indigo blue bazin riche damask with a subtle sheen, embroidery in gold thread. No person, no mannequin, no text, no logo, no label.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T16:28:52",
+    "fichier": "ensemble-pagne-deux-pieces-ocre-recto",
+    "mode": "generation",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Professional e-commerce studio photograph of a women's two-piece outfit: a fitted short-sleeve peplum top and, below it, the matching straight midi skirt hanging from the same hanger by two thin ribbon loops. Fabric: African wax print (ankara) cotton, ochre-mustard base with deep indigo concentric circle motifs. The garment hangs on a simple light wooden clothes hanger with a thin curved metal hook, seen straight from the front, perfectly centered, the hook at the top center of the frame, the entire garment visible with margin on all sides. Plain light grey seamless studio background, soft even lighting, natural fabric drape. No person, no mannequin, no text, no logo, no label, no price tag. Photorealistic, sharp fabric texture.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T16:30:04",
+    "fichier": "ensemble-pagne-deux-pieces-indigo-recto",
+    "mode": "edition",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Keep exactly the same garment, cut, shape, folds, hanger, camera angle, framing, lighting and background. Change only the fabric to: African wax print (ankara) cotton, deep indigo blue base with golden-yellow concentric circle motifs. No person, no mannequin, no text, no logo, no label.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T16:31:00",
+    "fichier": "chemise-lin-blanc-recto",
+    "mode": "generation",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Professional e-commerce studio photograph of a men's long-sleeve shirt with a mandarin band collar, a button placket and one chest pocket. Fabric: off-white natural linen with a visible slub texture. The garment hangs on a simple light wooden clothes hanger with a thin curved metal hook, seen straight from the front, perfectly centered, the hook at the top center of the frame, the entire garment visible with margin on all sides. Plain light grey seamless studio background, soft even lighting, natural fabric drape. No person, no mannequin, no text, no logo, no label, no price tag. Photorealistic, sharp fabric texture.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T16:32:11",
+    "fichier": "chemise-lin-noir-recto",
+    "mode": "edition",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Keep exactly the same garment, cut, shape, folds, hanger, camera angle, framing, lighting and background. Change only the fabric to: black washed linen with a visible texture. No person, no mannequin, no text, no logo, no label.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T16:33:08",
+    "fichier": "kaftan-homme-noir-recto",
+    "mode": "generation",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Professional e-commerce studio photograph of a men's long West African kaftan reaching the ankles, with wide elbow-length sleeves, a V-neck slit bordered by fine embroidery, and short side slits at the hem. Fabric: matte black heavy cotton with ochre-gold embroidery. The garment hangs on a simple light wooden clothes hanger with a thin curved metal hook, seen straight from the front, perfectly centered, the hook at the top center of the frame, the entire garment visible with margin on all sides. Plain light grey seamless studio background, soft even lighting, natural fabric drape. No person, no mannequin, no text, no logo, no label, no price tag. Photorealistic, sharp fabric texture.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T16:34:11",
+    "fichier": "kaftan-homme-indigo-recto",
+    "mode": "edition",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Keep exactly the same garment, cut, shape, folds, hanger, camera angle, framing, lighting and background. Change only the fabric to: deep indigo blue heavy cotton with gold embroidery. No person, no mannequin, no text, no logo, no label.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T16:35:02",
+    "fichier": "jupe-longue-bogolan-ocre-recto",
+    "mode": "generation",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Professional e-commerce studio photograph of a women's long A-line skirt hanging from a wooden skirt hanger with two metal clips at the waistband. Fabric: Malian bogolan mud cloth with hand-painted geometric patterns (zigzags, crosses and dots) in dark brown and cream on an ochre base. The garment hangs on a simple light wooden clothes hanger with a thin curved metal hook, seen straight from the front, perfectly centered, the hook at the top center of the frame, the entire garment visible with margin on all sides. Plain light grey seamless studio background, soft even lighting, natural fabric drape. No person, no mannequin, no text, no logo, no label, no price tag. Photorealistic, sharp fabric texture.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T19:13:24",
+    "fichier": "sandales-cuir-tressees-ocre-recto",
+    "mode": "generation",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Professional e-commerce studio photograph of a pair of flat sandals with hand-braided leather straps across the front and a stitched leather sole. Fabric or material: natural tan-ochre vegetable-tanned leather. Flat lay seen from directly above: the two sandals placed side by side, toes pointing to the top of the frame, perfectly centered, with generous margin on all sides. Plain light grey seamless background, soft even lighting with a light natural shadow. No person, no foot, no text, no logo, no label, no price tag. Photorealistic, sharp leather texture.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T19:14:19",
+    "fichier": "sandales-cuir-tressees-noir-recto",
+    "mode": "edition",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Keep exactly the same item, cut, shape, folds, hanger or support, camera angle, framing, lighting and background. Change only the fabric or material to: smooth black leather. No person, no mannequin, no text, no logo, no label.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T19:31:00",
+    "fichier": "robe-longue-bazin-ocre-recto",
+    "mode": "generation",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Professional e-commerce studio photograph of a women's long, flowing Senegalese bazin dress reaching the ankles, with wide flared sleeves to the wrist and fine embroidery around the round neckline and on the cuffs. Fabric or material: ochre-gold bazin riche damask with a subtle sheen, embroidery in gold thread. The garment hangs on a simple light wooden clothes hanger with a thin curved metal hook, seen straight from the front, perfectly centered, the hook at the top center of the frame, the entire garment visible with margin on all sides. Plain light grey seamless studio background, soft even lighting, natural fabric drape. No person, no mannequin, no text, no logo, no label, no price tag. Photorealistic, sharp fabric texture.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T19:32:27",
+    "fichier": "robe-longue-bazin-indigo-recto",
+    "mode": "edition",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Keep exactly the same item, cut, shape, folds, hanger or support, camera angle, framing, lighting and background. Change only the fabric or material to: deep indigo blue bazin riche damask with a subtle sheen, embroidery in gold thread. No person, no mannequin, no text, no logo, no label.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T19:33:34",
+    "fichier": "chemise-wax-manches-courtes-indigo-recto",
+    "mode": "generation",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Professional e-commerce studio photograph of a men's short-sleeve casual shirt with a classic pointed collar, a button placket with mother-of-pearl buttons and a straight hem. Fabric or material: African wax print (ankara) cotton, deep indigo blue base with golden-yellow concentric circle motifs. The garment hangs on a simple light wooden clothes hanger with a thin curved metal hook, seen straight from the front, perfectly centered, the hook at the top center of the frame, the entire garment visible with margin on all sides. Plain light grey seamless studio background, soft even lighting, natural fabric drape. No person, no mannequin, no text, no logo, no label, no price tag. Photorealistic, sharp fabric texture.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T19:34:56",
+    "fichier": "chemise-wax-manches-courtes-ocre-recto",
+    "mode": "edition",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Keep exactly the same item, cut, shape, folds, hanger or support, camera angle, framing, lighting and background. Change only the fabric or material to: African wax print (ankara) cotton, ochre-mustard base with deep indigo concentric circle motifs. No person, no mannequin, no text, no logo, no label.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T19:36:17",
+    "fichier": "sac-cabas-wax-indigo-recto",
+    "mode": "generation",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Professional e-commerce studio photograph of a large rectangular tote bag (cabas) made of African wax print fabric, with two braided cotton rope handles. Fabric or material: African wax print (ankara) cotton, deep indigo blue base with golden-yellow concentric circle motifs. The bag hangs by both of its handles from a single thin curved metal hook at the top center of the frame, seen straight from the front, perfectly centered, the entire bag visible with margin on all sides. Plain light grey seamless studio background, soft even lighting. No person, no text, no logo, no label, no price tag. Photorealistic, sharp fabric texture.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T19:37:40",
+    "fichier": "sac-cabas-wax-ocre-recto",
+    "mode": "edition",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Keep exactly the same item, cut, shape, folds, hanger or support, camera angle, framing, lighting and background. Change only the fabric or material to: African wax print (ankara) cotton, ochre-mustard base with deep indigo concentric circle motifs. No person, no mannequin, no text, no logo, no label.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T19:38:53",
+    "fichier": "foulard-tete-wax-ocre-recto",
+    "mode": "generation",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Professional e-commerce studio photograph of a long rectangular head scarf (headwrap) in African wax print fabric, with finely hemmed edges. Fabric or material: African wax print (ankara) cotton, ochre-mustard base with deep indigo concentric circle motifs. The scarf is folded lengthwise and draped over the bar of a simple light wooden clothes hanger with a thin curved metal hook, both ends hanging down evenly, seen straight from the front, perfectly centered, the hook at the top center of the frame, the entire scarf visible with margin on all sides. Plain light grey seamless studio background, soft even lighting. No person, no mannequin, no text, no logo, no label, no price tag. Photorealistic, sharp fabric texture.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T19:40:36",
+    "fichier": "foulard-tete-wax-indigo-recto",
+    "mode": "edition",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Keep exactly the same item, cut, shape, folds, hanger or support, camera angle, framing, lighting and background. Change only the fabric or material to: African wax print (ankara) cotton, deep indigo blue base with golden-yellow concentric circle motifs. No person, no mannequin, no text, no logo, no label.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T19:43:32",
+    "fichier": "porte-robe-portefeuille-wax",
+    "mode": "edition",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Turn this product photo into a fashion editorial photograph. A Senegalese woman in her late twenties wears this exact wrap dress, full-length shot, walking confidently in a sunny street of the Plateau district of Dakar with colourful facades, warm morning light. Keep the item exactly as in the source image: same cut, same fabric pattern, same colours, same details. Natural pose, realistic face, skin and hands, photorealistic. The person is fictional. No text, no logo, no watermark.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T19:43:56",
+    "fichier": "porte-boubou-bazin-brode",
+    "mode": "edition",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Turn this product photo into a fashion editorial photograph. A Senegalese man in his forties wears this exact grand boubou over matching trousers, with leather babouche slippers, full-length shot, standing proudly in a sunlit courtyard with a white wall and pink bougainvillea, on a festive day. Keep the item exactly as in the source image: same cut, same fabric pattern, same colours, same details. Natural pose, realistic face, skin and hands, photorealistic. The person is fictional. No text, no logo, no watermark.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T19:44:20",
+    "fichier": "porte-ensemble-pagne-deux-pieces",
+    "mode": "edition",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Turn this product photo into a fashion editorial photograph. A Senegalese woman in her thirties wears this exact two-piece outfit, the top and the skirt together, full-length shot, standing on a rooftop terrace in Dakar at golden hour, smiling. Keep the item exactly as in the source image: same cut, same fabric pattern, same colours, same details. Natural pose, realistic face, skin and hands, photorealistic. The person is fictional. No text, no logo, no watermark.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T19:44:45",
+    "fichier": "porte-chemise-lin",
+    "mode": "edition",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Turn this product photo into a fashion editorial photograph. A Senegalese man in his thirties wears this exact shirt with light beige trousers, three-quarter shot, sitting relaxed at a café terrace in Dakar, soft daylight. Keep the item exactly as in the source image: same cut, same fabric pattern, same colours, same details. Natural pose, realistic face, skin and hands, photorealistic. The person is fictional. No text, no logo, no watermark.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T19:45:04",
+    "fichier": "porte-kaftan-homme",
+    "mode": "edition",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Turn this product photo into a fashion editorial photograph. A tall Senegalese man wears this exact kaftan over matching trousers, full-length shot, standing in front of an old ochre colonial facade with wooden shutters, late-afternoon light. Keep the item exactly as in the source image: same cut, same fabric pattern, same colours, same details. Natural pose, realistic face, skin and hands, photorealistic. The person is fictional. No text, no logo, no watermark.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T19:45:50",
+    "fichier": "porte-jupe-longue-bogolan",
+    "mode": "edition",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Turn this product photo into a fashion editorial photograph. A Senegalese woman wears this exact skirt with a simple fitted black top, full-length shot, walking past a colourful painted wall in Dakar, natural daylight. Keep the item exactly as in the source image: same cut, same fabric pattern, same colours, same details. Natural pose, realistic face, skin and hands, photorealistic. The person is fictional. No text, no logo, no watermark.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T19:46:24",
+    "fichier": "porte-robe-longue-bazin",
+    "mode": "edition",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Turn this product photo into a fashion editorial photograph. A Senegalese woman in her thirties wears this exact dress with a matching elegant headwrap and gold earrings, full-length shot, at a family celebration in a courtyard in Dakar, warm late-afternoon light. Keep the item exactly as in the source image: same cut, same fabric pattern, same colours, same details. Natural pose, realistic face, skin and hands, photorealistic. The person is fictional. No text, no logo, no watermark.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T19:46:54",
+    "fichier": "porte-chemise-wax-manches-courtes",
+    "mode": "edition",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Turn this product photo into a fashion editorial photograph. A Senegalese man in his late twenties wears this exact shirt, untucked, over beige chino trousers, three-quarter shot, standing on the seafront corniche of Dakar with the ocean behind him, bright morning light. Keep the item exactly as in the source image: same cut, same fabric pattern, same colours, same details. Natural pose, realistic face, skin and hands, photorealistic. The person is fictional. No text, no logo, no watermark.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T19:47:31",
+    "fichier": "porte-sac-cabas-wax",
+    "mode": "edition",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Turn this product photo into a fashion editorial photograph. A young Senegalese woman carries this exact tote bag on her shoulder, wearing a simple white top and jeans, three-quarter shot, walking through a colourful open-air market in Dakar, natural daylight. Keep the item exactly as in the source image: same cut, same fabric pattern, same colours, same details. Natural pose, realistic face, skin and hands, photorealistic. The person is fictional. No text, no logo, no watermark.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T19:48:09",
+    "fichier": "porte-foulard-tete-wax",
+    "mode": "edition",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Turn this product photo into a fashion editorial photograph. A Senegalese woman wears this exact fabric tied as an elegant high headwrap (turban), portrait from the shoulders up, smiling, in front of a plain warm-coloured wall, soft natural light. Keep the item exactly as in the source image: same cut, same fabric pattern, same colours, same details. Natural pose, realistic face, skin and hands, photorealistic. The person is fictional. No text, no logo, no watermark.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T19:48:37",
+    "fichier": "porte-sandales-cuir-tressees",
+    "mode": "edition",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Turn this product photo into a fashion editorial photograph. Close-up of the feet and ankles of a person wearing these exact sandals, standing on warm golden sand, the hem of a long white robe just visible, golden hour light. Keep the item exactly as in the source image: same cut, same fabric pattern, same colours, same details. Natural pose, realistic face, skin and hands, photorealistic. The person is fictional. No text, no logo, no watermark.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T19:56:39",
+    "fichier": "campagne",
+    "mode": "generation",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Fashion campaign photograph: a confident Senegalese woman in a flowing African wax print dress in indigo and ochre walks towards the camera in a colourful street of Dakar with pastel facades and bougainvillea, golden hour sunlight, shallow depth of field. She is in the center of the frame with space around her. Warm, joyful, editorial. Photorealistic, natural colours, high detail. Any person shown is fictional. No text, no logo, no signage, no watermark.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T19:56:59",
+    "fichier": "categorie-femme",
+    "mode": "generation",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Fashion photograph of a Senegalese woman wearing an elegant African wax print outfit with a matching headwrap, three-quarter shot, standing against a warm ochre wall in soft daylight, centered. Photorealistic, natural colours, high detail. Any person shown is fictional. No text, no logo, no signage, no watermark.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T19:57:14",
+    "fichier": "categorie-homme",
+    "mode": "generation",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Fashion photograph of a Senegalese man wearing a deep indigo embroidered kaftan, three-quarter shot, standing against a whitewashed wall with soft shadows of palm leaves, centered. Photorealistic, natural colours, high detail. Any person shown is fictional. No text, no logo, no signage, no watermark.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T19:57:31",
+    "fichier": "categorie-accessoires",
+    "mode": "generation",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Still life photograph seen from above: an African wax print tote bag with braided rope handles, a folded wax print head scarf and a pair of braided leather sandals arranged on a woven straw mat, warm natural light. No person. Photorealistic, natural colours, high detail. Any person shown is fictional. No text, no logo, no signage, no watermark.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T19:57:52",
+    "fichier": "atelier",
+    "mode": "generation",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Close-up photograph of a tailor's hands guiding African wax print fabric under the needle of a sewing machine in a small sewing workshop in Dakar, spools of thread and scissors on the wooden table, warm window light, shallow depth of field. The face is not visible. Photorealistic, natural colours, high detail. Any person shown is fictional. No text, no logo, no signage, no watermark.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T19:58:08",
+    "fichier": "boutique",
+    "mode": "generation",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Interior of a small, bright fashion boutique in Dakar: wooden clothing racks with African wax print dresses and bazin boubous on hangers, folded scarves on shelves, green plants, a large window with daylight, warm and welcoming. No people. Photorealistic, natural colours, high detail. Any person shown is fictional. No text, no logo, no signage, no watermark.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T19:58:29",
+    "fichier": "inspiration-1",
+    "mode": "generation",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Lifestyle fashion photograph: a Senegalese woman in an African wax print wrap dress laughing on the seafront corniche of Dakar, the ocean behind her, breezy morning light. Photorealistic, natural colours, high detail. Any person shown is fictional. No text, no logo, no signage, no watermark.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T19:58:50",
+    "fichier": "inspiration-2",
+    "mode": "generation",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Lifestyle fashion photograph: a Senegalese man in a brilliant white embroidered bazin grand boubou greeting guests at a family celebration in a sunny courtyard. Photorealistic, natural colours, high detail. Any person shown is fictional. No text, no logo, no signage, no watermark.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T19:59:17",
+    "fichier": "inspiration-3",
+    "mode": "generation",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Lifestyle fashion photograph: two Senegalese friends in coordinated African wax print outfits laughing together in a narrow street with colourful colonial houses, like on Gorée Island, afternoon light. Photorealistic, natural colours, high detail. Any person shown is fictional. No text, no logo, no signage, no watermark.",
+    "genere_par_ia": true
+  },
+  {
+    "date": "2026-10-24T19:59:38",
+    "fichier": "inspiration-4",
+    "mode": "generation",
+    "modele": "grok-imagine-image-2.0",
+    "prompt": "Lifestyle fashion photograph: a Senegalese woman in a long bogolan skirt and a black top sitting under a large baobab tree, golden evening light. Photorealistic, natural colours, high detail. Any person shown is fictional. No text, no logo, no signage, no watermark.",
+    "genere_par_ia": true
+  }
+]

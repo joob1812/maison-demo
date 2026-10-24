@@ -1,0 +1,164 @@
+{
+  "modele": "grok-imagine-image-2.0",
+  "prix_estime_usd": {
+    "generation": 0.04,
+    "edition": 0.06
+  },
+  "debut": "Professional e-commerce studio photograph of",
+  "cadre": "The garment hangs on a simple light wooden clothes hanger with a thin curved metal hook, seen straight from the front, perfectly centered, the hook at the top center of the frame, the entire garment visible with margin on all sides. Plain light grey seamless studio background, soft even lighting, natural fabric drape. No person, no mannequin, no text, no logo, no label, no price tag. Photorealistic, sharp fabric texture.",
+  "interdits": "No person, no mannequin, no text, no logo, no label.",
+  "produits": {
+    "robe-portefeuille-wax": {
+      "vetement": "a women's midi wrap dress with three-quarter sleeves, a V neckline and a fabric belt tied in a bow at the waist.",
+      "dos": "Back view: smooth back with a centered seam, the belt visible at the waist.",
+      "couleurs": {
+        "indigo": "African wax print (ankara) cotton, deep indigo blue base with golden-yellow concentric circle motifs",
+        "ocre": "African wax print (ankara) cotton, ochre-mustard base with deep indigo concentric circle motifs"
+      },
+      "porte": "A Senegalese woman in her late twenties wears this exact wrap dress, full-length shot, walking confidently in a sunny street of the Plateau district of Dakar with colourful facades, warm morning light."
+    },
+    "boubou-bazin-brode": {
+      "vetement": "a men's Senegalese grand boubou: a very wide, long, flowing robe whose large sleeves form one piece with the body, with fine embroidery around the neckline and down the chest.",
+      "dos": "Back view: plain back without embroidery, the wide fabric falling in soft folds.",
+      "couleurs": {
+        "blanc": "brilliant white bazin riche damask with a subtle sheen, embroidery in ivory and pale gold thread",
+        "indigo": "deep indigo blue bazin riche damask with a subtle sheen, embroidery in gold thread"
+      },
+      "porte": "A Senegalese man in his forties wears this exact grand boubou over matching trousers, with leather babouche slippers, full-length shot, standing proudly in a sunlit courtyard with a white wall and pink bougainvillea, on a festive day."
+    },
+    "ensemble-pagne-deux-pieces": {
+      "vetement": "a women's two-piece outfit: a fitted short-sleeve peplum top and, below it, the matching straight midi skirt hanging from the same hanger by two thin ribbon loops.",
+      "dos": "Back view: the back of the top with a zip, the back of the skirt with a short slit.",
+      "couleurs": {
+        "ocre": "African wax print (ankara) cotton, ochre-mustard base with deep indigo concentric circle motifs",
+        "indigo": "African wax print (ankara) cotton, deep indigo blue base with golden-yellow concentric circle motifs"
+      },
+      "porte": "A Senegalese woman in her thirties wears this exact two-piece outfit, the top and the skirt together, full-length shot, standing on a rooftop terrace in Dakar at golden hour, smiling."
+    },
+    "chemise-lin": {
+      "vetement": "a men's long-sleeve shirt with a mandarin band collar, a button placket and one chest pocket.",
+      "dos": "Back view: plain back with a yoke seam across the shoulders and a small box pleat.",
+      "couleurs": {
+        "blanc": "off-white natural linen with a visible slub texture",
+        "noir": "black washed linen with a visible texture"
+      },
+      "porte": "A Senegalese man in his thirties wears this exact shirt with light beige trousers, three-quarter shot, sitting relaxed at a café terrace in Dakar, soft daylight."
+    },
+    "kaftan-homme": {
+      "vetement": "a men's long West African kaftan reaching the ankles, with wide elbow-length sleeves, a V-neck slit bordered by fine embroidery, and short side slits at the hem.",
+      "dos": "Back view: plain back without the neck slit, embroidery only on the sleeve hems.",
+      "couleurs": {
+        "noir": "matte black heavy cotton with ochre-gold embroidery",
+        "indigo": "deep indigo blue heavy cotton with gold embroidery"
+      },
+      "porte": "A tall Senegalese man wears this exact kaftan over matching trousers, full-length shot, standing in front of an old ochre colonial facade with wooden shutters, late-afternoon light."
+    },
+    "jupe-longue-bogolan": {
+      "vetement": "a women's long A-line skirt hanging from a wooden skirt hanger with two metal clips at the waistband.",
+      "dos": "Back view: a short zip at the center of the waistband.",
+      "couleurs": {
+        "ocre": "Malian bogolan mud cloth with hand-painted geometric patterns (zigzags, crosses and dots) in dark brown and cream on an ochre base"
+      },
+      "porte": "A Senegalese woman wears this exact skirt with a simple fitted black top, full-length shot, walking past a colourful painted wall in Dakar, natural daylight."
+    },
+    "robe-longue-bazin": {
+      "vetement": "a women's long, flowing Senegalese bazin dress reaching the ankles, with wide flared sleeves to the wrist and fine embroidery around the round neckline and on the cuffs.",
+      "dos": "Back view: plain back, the embroidery visible only on the cuffs.",
+      "couleurs": {
+        "ocre": "ochre-gold bazin riche damask with a subtle sheen, embroidery in gold thread",
+        "indigo": "deep indigo blue bazin riche damask with a subtle sheen, embroidery in gold thread"
+      },
+      "porte": "A Senegalese woman in her thirties wears this exact dress with a matching elegant headwrap and gold earrings, full-length shot, at a family celebration in a courtyard in Dakar, warm late-afternoon light."
+    },
+    "chemise-wax-manches-courtes": {
+      "vetement": "a men's short-sleeve casual shirt with a classic pointed collar, a button placket with mother-of-pearl buttons and a straight hem.",
+      "dos": "Back view: plain back with a yoke seam across the shoulders.",
+      "couleurs": {
+        "indigo": "African wax print (ankara) cotton, deep indigo blue base with golden-yellow concentric circle motifs",
+        "ocre": "African wax print (ankara) cotton, ochre-mustard base with deep indigo concentric circle motifs"
+      },
+      "porte": "A Senegalese man in his late twenties wears this exact shirt, untucked, over beige chino trousers, three-quarter shot, standing on the seafront corniche of Dakar with the ocean behind him, bright morning light."
+    },
+    "sac-cabas-wax": {
+      "vetement": "a large rectangular tote bag (cabas) made of African wax print fabric, with two braided cotton rope handles.",
+      "cadre": "The bag hangs by both of its handles from a single thin curved metal hook at the top center of the frame, seen straight from the front, perfectly centered, the entire bag visible with margin on all sides. Plain light grey seamless studio background, soft even lighting. No person, no text, no logo, no label, no price tag. Photorealistic, sharp fabric texture.",
+      "couleurs": {
+        "indigo": "African wax print (ankara) cotton, deep indigo blue base with golden-yellow concentric circle motifs",
+        "ocre": "African wax print (ankara) cotton, ochre-mustard base with deep indigo concentric circle motifs"
+      },
+      "porte": "A young Senegalese woman carries this exact tote bag on her shoulder, wearing a simple white top and jeans, three-quarter shot, walking through a colourful open-air market in Dakar, natural daylight."
+    },
+    "foulard-tete-wax": {
+      "vetement": "a long rectangular head scarf (headwrap) in African wax print fabric, with finely hemmed edges.",
+      "cadre": "The scarf is folded lengthwise and draped over the bar of a simple light wooden clothes hanger with a thin curved metal hook, both ends hanging down evenly, seen straight from the front, perfectly centered, the hook at the top center of the frame, the entire scarf visible with margin on all sides. Plain light grey seamless studio background, soft even lighting. No person, no mannequin, no text, no logo, no label, no price tag. Photorealistic, sharp fabric texture.",
+      "couleurs": {
+        "ocre": "African wax print (ankara) cotton, ochre-mustard base with deep indigo concentric circle motifs",
+        "indigo": "African wax print (ankara) cotton, deep indigo blue base with golden-yellow concentric circle motifs"
+      },
+      "porte": "A Senegalese woman wears this exact fabric tied as an elegant high headwrap (turban), portrait from the shoulders up, smiling, in front of a plain warm-coloured wall, soft natural light."
+    },
+    "sandales-cuir-tressees": {
+      "vetement": "a pair of flat sandals with hand-braided leather straps across the front and a stitched leather sole.",
+      "cadre": "Flat lay seen from directly above: the two sandals placed side by side, toes pointing to the top of the frame, perfectly centered, with generous margin on all sides. Plain light grey seamless background, soft even lighting with a light natural shadow. No person, no foot, no text, no logo, no label, no price tag. Photorealistic, sharp leather texture.",
+      "cadrage": "centre",
+      "couleurs": {
+        "ocre": "natural tan-ochre vegetable-tanned leather",
+        "noir": "smooth black leather"
+      },
+      "porte": "Close-up of the feet and ankles of a person wearing these exact sandals, standing on warm golden sand, the hem of a long white robe just visible, golden hour light."
+    }
+  },
+  "portes": {
+    "debut": "Turn this product photo into a fashion editorial photograph.",
+    "fin": "Keep the item exactly as in the source image: same cut, same fabric pattern, same colours, same details. Natural pose, realistic face, skin and hands, photorealistic. The person is fictional. No text, no logo, no watermark.",
+    "cote_max": 1200
+  },
+  "ambiances": {
+    "fin": "Photorealistic, natural colours, high detail. Any person shown is fictional. No text, no logo, no signage, no watermark.",
+    "cote_max": 1200,
+    "images": {
+      "campagne": {
+        "format": "4:3",
+        "cote_max": 1600,
+        "prompt": "Fashion campaign photograph: a confident Senegalese woman in a flowing African wax print dress in indigo and ochre walks towards the camera in a colourful street of Dakar with pastel facades and bougainvillea, golden hour sunlight, shallow depth of field. She is in the center of the frame with space around her. Warm, joyful, editorial."
+      },
+      "categorie-femme": {
+        "format": "1:1",
+        "prompt": "Fashion photograph of a Senegalese woman wearing an elegant African wax print outfit with a matching headwrap, three-quarter shot, standing against a warm ochre wall in soft daylight, centered."
+      },
+      "categorie-homme": {
+        "format": "1:1",
+        "prompt": "Fashion photograph of a Senegalese man wearing a deep indigo embroidered kaftan, three-quarter shot, standing against a whitewashed wall with soft shadows of palm leaves, centered."
+      },
+      "categorie-accessoires": {
+        "format": "1:1",
+        "prompt": "Still life photograph seen from above: an African wax print tote bag with braided rope handles, a folded wax print head scarf and a pair of braided leather sandals arranged on a woven straw mat, warm natural light. No person."
+      },
+      "atelier": {
+        "format": "1:1",
+        "prompt": "Close-up photograph of a tailor's hands guiding African wax print fabric under the needle of a sewing machine in a small sewing workshop in Dakar, spools of thread and scissors on the wooden table, warm window light, shallow depth of field. The face is not visible."
+      },
+      "boutique": {
+        "format": "3:2",
+        "cote_max": 1600,
+        "prompt": "Interior of a small, bright fashion boutique in Dakar: wooden clothing racks with African wax print dresses and bazin boubous on hangers, folded scarves on shelves, green plants, a large window with daylight, warm and welcoming. No people."
+      },
+      "inspiration-1": {
+        "format": "3:4",
+        "prompt": "Lifestyle fashion photograph: a Senegalese woman in an African wax print wrap dress laughing on the seafront corniche of Dakar, the ocean behind her, breezy morning light."
+      },
+      "inspiration-2": {
+        "format": "3:4",
+        "prompt": "Lifestyle fashion photograph: a Senegalese man in a brilliant white embroidered bazin grand boubou greeting guests at a family celebration in a sunny courtyard."
+      },
+      "inspiration-3": {
+        "format": "3:4",
+        "prompt": "Lifestyle fashion photograph: two Senegalese friends in coordinated African wax print outfits laughing together in a narrow street with colourful colonial houses, like on Gorée Island, afternoon light."
+      },
+      "inspiration-4": {
+        "format": "3:4",
+        "prompt": "Lifestyle fashion photograph: a Senegalese woman in a long bogolan skirt and a black top sitting under a large baobab tree, golden evening light."
+      }
+    }
+  }
+}

@@ -1,0 +1,398 @@
+@import "tailwindcss";
+
+/* Palette fixe de la boutique. La couleur de marque vient de src/config/boutique.ts. */
+@theme {
+  --color-encre: #141414;
+  --color-doux: #45474d;
+  --color-attenue: #5c5f66;
+  --color-ligne: #e4e4e7;
+  --color-fond: #f5f5f7;
+  --color-whatsapp: #0e7a3f;
+  --color-alerte: #6b4e00;
+  --color-alerte-fond: #fdf3dc;
+  --color-erreur: #b42318;
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-titre: "Archivo Variable", "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+}
+
+@theme inline {
+  --color-marque: var(--marque);
+}
+
+:root {
+  --marque: #23308c;
+  color-scheme: light;
+}
+
+body {
+  background: #ffffff;
+  color: var(--color-encre);
+}
+
+:focus-visible {
+  outline: 2px solid var(--marque);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ---------- Portant de la page d'accueil ---------- */
+
+.portant-piste {
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  /* Place pour le vêtement mis en avant, qui grandit et descend. */
+  padding-bottom: 40px;
+}
+.portant-piste::-webkit-scrollbar {
+  display: none;
+}
+
+.portant-barre,
+.portant-rang::before {
+  height: 7px;
+  border-radius: 4px;
+  background: linear-gradient(#e4e6ea, #a3a7ae 55%, #7c8087);
+  box-shadow: 0 3px 4px rgb(0 0 0 / 0.18);
+}
+
+.portant-rang {
+  position: relative;
+  display: flex;
+  width: max-content;
+  margin: 0 auto;
+  padding: 12px calc(50% - 75px) 0;
+}
+.portant-rang::before {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  top: 13px;
+}
+
+.portant-cintre {
+  position: relative;
+  flex: none;
+  width: 150px;
+  margin-inline: -12px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  scroll-snap-align: center;
+  transform-origin: 50% 0;
+  transition:
+    transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1),
+    opacity 0.3s,
+    filter 0.3s;
+}
+.portant-visuel {
+  transform-origin: 50% 1%;
+  filter: drop-shadow(0 12px 12px rgb(0 0 0 / 0.16));
+}
+.portant-cintre:focus-visible {
+  z-index: 3;
+  outline-offset: 6px;
+}
+
+/* Téléphone : le vêtement au centre est mis en avant. */
+@media (hover: none), (pointer: coarse) {
+  .portant-cintre[data-vedette="true"] {
+    z-index: 2;
+    transform: translateY(6px) scale(1.1);
+  }
+  .portant-cintre[data-vedette="false"] {
+    opacity: 0.7;
+  }
+}
+
+/* Ordinateur : le vêtement survolé s'avance, les autres s'effacent. */
+@media (hover: hover) and (pointer: fine) {
+  .portant-rang:has(.portant-cintre:hover) .portant-cintre:not(:hover) {
+    opacity: 0.35;
+    filter: saturate(0.6);
+  }
+  .portant-cintre:hover {
+    z-index: 3;
+    transform: translateY(12px) scale(1.14);
+  }
+  .portant-cintre:hover .portant-visuel {
+    animation: balancement 1.8s ease-in-out infinite;
+  }
+}
+
+@media (min-width: 768px) {
+  .portant-piste {
+    padding-bottom: 64px;
+  }
+  .portant-rang {
+    padding-inline: 48px;
+  }
+  .portant-cintre {
+    width: 172px;
+    margin-inline: -10px;
+  }
+}
+
+@keyframes balancement {
+  0%,
+  100% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    transform: rotate(2deg);
+  }
+}
+
+@keyframes balancement-amorti {
+  0% {
+    transform: rotate(0);
+  }
+  18% {
+    transform: rotate(3.5deg);
+  }
+  38% {
+    transform: rotate(-2.5deg);
+  }
+  58% {
+    transform: rotate(1.5deg);
+  }
+  78% {
+    transform: rotate(-0.6deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+/* ---------- Vue rapprochée ---------- */
+
+.portant-dialogue {
+  margin: 0;
+  width: 100%;
+  max-width: none;
+  height: 100dvh;
+  max-height: none;
+  padding: 0;
+  border: 0;
+  overflow-y: auto;
+  background: #f3f1ec;
+  color: var(--color-encre);
+}
+.portant-dialogue::backdrop {
+  background: rgb(20 20 20 / 0.45);
+  backdrop-filter: blur(4px);
+}
+@media (min-width: 768px) {
+  .portant-dialogue {
+    margin: auto;
+    width: min(980px, calc(100% - 48px));
+    height: auto;
+    max-height: calc(100dvh - 48px);
+    border-radius: 28px;
+  }
+}
+html:has(.portant-dialogue[open]) {
+  overflow: hidden;
+}
+
+.vue-rapprochee-scene {
+  position: relative;
+  perspective: 1400px;
+  transform-origin: 50% 1%;
+  animation: balancement-amorti 2.4s ease-out 0.35s 1 both;
+}
+.vue-rapprochee-retourne {
+  position: relative;
+  aspect-ratio: 5 / 8;
+  transform-style: preserve-3d;
+  transition: transform 0.75s cubic-bezier(0.3, 0.7, 0.2, 1);
+}
+.vue-rapprochee-retourne[data-face="verso"] {
+  transform: rotateY(180deg);
+}
+.vue-rapprochee-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  filter: drop-shadow(0 18px 18px rgb(0 0 0 / 0.18));
+}
+.vue-rapprochee-dos {
+  transform: rotateY(180deg);
+}
+
+.etiquette {
+  position: absolute;
+  top: 26%;
+  right: -16%;
+  width: 96px;
+  padding: 18px 10px 10px;
+  border-radius: 4px 4px 10px 10px;
+  background: #e9d8b8;
+  box-shadow: 0 6px 12px rgb(0 0 0 / 0.15);
+  rotate: 7deg;
+  transform-origin: 50% 0;
+  animation: balancement-amorti 2.8s ease-out 0.5s 1 both;
+}
+.etiquette::before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  margin-left: -4px;
+  border-radius: 50%;
+  background: #f3f1ec;
+  box-shadow: inset 0 1px 2px rgb(0 0 0 / 0.3);
+}
+.etiquette::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  width: 1px;
+  height: 64px;
+  background: #8a7b63;
+  transform: rotate(-28deg);
+  transform-origin: 50% 100%;
+}
+@media (min-width: 768px) {
+  .etiquette {
+    right: -22%;
+    width: 110px;
+  }
+}
+
+::view-transition-group(vetement-actif) {
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* ---------- Bandeau défilant ---------- */
+
+.bandeau-piste {
+  animation: defilement 45s linear infinite;
+}
+@keyframes defilement {
+  to {
+    transform: translateX(-50%);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .bandeau-piste,
+  .vue-rapprochee-scene,
+  .etiquette,
+  .portant-cintre:hover .portant-visuel {
+    animation: none;
+  }
+}
+
+/* ---------- Panneaux (menu, recherche, mini-panier, guide des tailles) ---------- */
+
+dialog.panneau {
+  padding: 0;
+  border: 0;
+  color: var(--color-encre);
+  background: #fff;
+  max-width: none;
+  max-height: none;
+}
+dialog.panneau::backdrop {
+  background: rgb(20 20 20 / 0.42);
+  backdrop-filter: blur(2px);
+}
+html:has(dialog[open]) {
+  overflow: hidden;
+}
+dialog.panneau-droite,
+dialog.panneau-gauche {
+  height: 100dvh;
+  width: min(420px, 100%);
+  margin: 0;
+}
+dialog.panneau-droite {
+  margin-left: auto;
+}
+dialog.panneau-droite[open] {
+  animation: entree-droite 0.28s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+dialog.panneau-gauche[open] {
+  animation: entree-gauche 0.28s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+dialog.panneau-haut {
+  width: 100%;
+  margin: 0;
+  max-height: 100dvh;
+}
+dialog.panneau-haut[open] {
+  animation: entree-haut 0.24s ease-out;
+}
+dialog.panneau-centre {
+  width: min(640px, calc(100% - 24px));
+  max-height: calc(100dvh - 48px);
+  margin: auto;
+  border-radius: 24px;
+}
+@keyframes entree-droite {
+  from {
+    transform: translateX(100%);
+  }
+}
+@keyframes entree-gauche {
+  from {
+    transform: translateX(-100%);
+  }
+}
+@keyframes entree-haut {
+  from {
+    transform: translateY(-24px);
+    opacity: 0;
+  }
+}
+
+/* Galerie de la fiche produit : défilement image par image. */
+.galerie {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+.galerie::-webkit-scrollbar {
+  display: none;
+}
+.galerie > * {
+  flex: 0 0 100%;
+  scroll-snap-align: center;
+}
+
+/* Rangée horizontale de cartes (complétez le look, vus récemment, inspirations). */
+.rangee {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 46%;
+  gap: 12px;
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  scrollbar-width: none;
+}
+.rangee::-webkit-scrollbar {
+  display: none;
+}
+.rangee > * {
+  scroll-snap-align: start;
+}
+@media (min-width: 768px) {
+  .rangee {
+    grid-auto-columns: calc((100% - 36px) / 4);
+  }
+}
